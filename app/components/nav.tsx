@@ -1,10 +1,27 @@
 import Link from "next/link";
+import { socialLinks } from "../config";
 
-const navItems = {
-  "/blog": { name: "Blog" },
-  "/projects": { name: "Projects" },
-  "/photos": { name: "Photos" },
-};
+function SocialLink(props: {
+  href: string;
+  icon: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+}) {
+  const { href, icon: Icon } = props;
+  return (
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      <Icon />
+    </a>
+  );
+}
+
+function SocialLinks() {
+  return (
+    <div className="flex text-lg gap-3.5 float-right transition-opacity duration-300 hover:opacity-90">
+      {socialLinks.map((link) => (
+        <SocialLink key={link.text} href={link.href} icon={link.icon} />
+      ))}
+    </div>
+  );
+}
 
 export function Navbar() {
   return (
@@ -16,15 +33,7 @@ export function Navbar() {
           </Link>
         </div>
         <div className="flex flex-row gap-4 mt-6 md:mt-0 md:ml-auto items-center">
-          {Object.entries(navItems).map(([path, { name }]) => (
-            <Link
-              key={path}
-              href={path}
-              className="transition-all hover:text-neutral-800 dark:hover:text-neutral-200 flex align-middle relative"
-            >
-              {name}
-            </Link>
-          ))}
+          <SocialLinks />
         </div>
       </div>
     </nav>

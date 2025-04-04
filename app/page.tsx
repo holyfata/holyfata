@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ProjectCard from "./components/card";
 
 export default function Page() {
   return (
@@ -14,24 +15,40 @@ export default function Page() {
           priority
         />
       </a>
-      <h1 className="mb-8 text-2xl font-medium">Who am i?</h1>
-      <div className="prose prose-neutral dark:prose-invert">
+      <h1 className="mb-8 text-2xl font-medium">holyata · he/him</h1>
+      <div>
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          I am a Junior Frontend Developer from China, currently working at JD.COM.
         </p>
+        <br />
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          Welcome to my personal website! You can find my blog posts, projects, and other interesting things I come across here.
         </p>
-        <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
-        </p>
-        <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
-        </p>
+      </div>
+      <div className="mt-16 mb-8">
+        <h2 className="text-2xl font-semibold">Projects</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-4">
+          <ProjectCard
+            title="Tailwind CSS Kit"
+            description="Design Kit for Utility-First CSS"
+            link="#"
+          />
+          <ProjectCard
+            title="Tailwind CSS Plugin"
+            description="Style importer for Figma"
+            link="#"
+          />
+          <ProjectCard
+            title="Tailwind CSS Radix"
+            description="Utilities and variants for styling Radix state"
+            link="#"
+          />
+          <ProjectCard
+            title="Flutters"
+            description="Flappy Bird + Doodle Jump"
+            link="#"
+          />
+        </div>
       </div>
     </section>
   );
