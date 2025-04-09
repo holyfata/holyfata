@@ -9,5 +9,8 @@
 
 ### 👋 Hi there, I'm Holyfata.
 
-- 🖥️ Front-end Engineer
-- 🤩 Open Source Enthusiast
+- 🖥️ Full Stack Engineer
+- 📦 Open Source Enthusiast
+- 💼 Work all day long
+
+###### Talk less, show me you <del>food</del> code 🤣.
