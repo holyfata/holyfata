@@ -11,6 +11,6 @@
 
 - 🖥️ Full Stack Engineer
 - 📦 Open Source Enthusiast
-- 💼 Work all day long
+- 💼 Work All Day Long
 
 ###### Talk less, show me you <del>food</del> code 🤣.
