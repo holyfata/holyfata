@@ -1,5 +1,5 @@
 <div>
-  <img href="https://wakatime.com/@holyfata" alt="WakaTime Badge" src="https://wakatime.com/badge/user/66b6796d-eb84-4bb9-b9d2-8dc882f4c6ac.svg)](https://wakatime.com/@66b6796d-eb84-4bb9-b9d2-8dc882f4c6ac">
+  <img href="https://wakatime.com/@holyfata" alt="WakaTime Badge" src="https://wakatime.com/badge/user/8a6aaaac-2685-4623-b4ff-27411dbe3a10.svg">
 </div>
 
 <picture>
