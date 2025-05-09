@@ -1,5 +1,5 @@
 <div>
-  <img href="https://codetime.dev" alt="CodeTime Badge" src="https://img.shields.io/endpoint?style=social&color=222&url=https%3A%2F%2Fapi.codetime.dev%2Fshield%3Fid%3D32315%26project%3D%26in=604800000">
+  <img href="https://wakatime.com/@holyfata" alt="WakaTime Badge" src="https://wakatime.com/badge/user/66b6796d-eb84-4bb9-b9d2-8dc882f4c6ac.svg)](https://wakatime.com/@66b6796d-eb84-4bb9-b9d2-8dc882f4c6ac">
 </div>
 
 <picture>
